@@ -18,7 +18,7 @@
 
 [[Macro]]
 
-[[test]]
+[[⚙️ Stack/DBT/test]]
 
 [[small knowledge & trick]]
 

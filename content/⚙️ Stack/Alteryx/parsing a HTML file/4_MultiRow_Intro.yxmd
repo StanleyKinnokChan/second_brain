@@ -1,0 +1,1898 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="10" />
+          <Fields>
+            <Field name="RowID" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>3</c>
+            </r>
+            <r>
+              <c>4</c>
+            </r>
+            <r>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6</c>
+            </r>
+            <r>
+              <c>7</c>
+            </r>
+            <r>
+              <c>8</c>
+            </r>
+            <r>
+              <c>9</c>
+            </r>
+            <r>
+              <c>10</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="1392" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Introduction to the Multi-Row Formula Tool</Text>
+          <Font name="Segoe UI" size="48" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="198" width="228" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Simple Example</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="450" width="432" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Fill down missing data</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="810" width="708" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create Grouped RecordIDs</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Data\Example Data.xlsx|||`Merged Cells$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText>Example Data.xlsx
+Query=`Merged Cells$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Item ID" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Merged Cells$`" type="Double" />
+            <Field name="Year" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Merged Cells$`" type="Double" />
+            <Field name="Month" size="255" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Merged Cells$`" type="V_String" />
+            <Field name="Value" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Merged Cells$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Data\Example Data.xlsx|||`Grouped RecordIDs$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText>Example Data.xlsx
+Query=`Grouped RecordIDs$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="255" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="V_String" />
+            <Field name="Year" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="Double" />
+            <Field name="Quarter" size="255" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="V_String" />
+            <Field name="Sales" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="1266" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">.\Data\Example Data.xlsx|||`Grouped RecordIDs$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText>Example Data.xlsx
+Query=`Grouped RecordIDs$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Region" size="255" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="V_String" />
+            <Field name="Year" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="Double" />
+            <Field name="Quarter" size="255" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="V_String" />
+            <Field name="Sales" source="File: G:\.shortcut-targets-by-id\0B_IJ_tfFjCcLcS1NZ0tCdV9RNlU\010. Data School\DS37\stanley Chan\wk3\wk3 Monday\Training\Data\Example Data.xlsx|||`Grouped RecordIDs$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="1650" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="48" />
+          <Fields>
+            <Field name="DownloadData" />
+          </Fields>
+          <Data>
+            <r>
+              <c>&lt;post&gt;</c>
+            </r>
+            <r>
+              <c>&lt;article&gt;</c>
+            </r>
+            <r>
+              <c>Behind the Scenes of the Tool Mastery Series: Community APIs and Automation</c>
+            </r>
+            <r>
+              <c>&lt;/article&gt;</c>
+            </r>
+            <r>
+              <c>&lt;attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;views&gt;</c>
+            </r>
+            <r>
+              <c>170</c>
+            </r>
+            <r>
+              <c>&lt;/views&gt;</c>
+            </r>
+            <r>
+              <c>&lt;stars&gt;</c>
+            </r>
+            <r>
+              <c>6</c>
+            </r>
+            <r>
+              <c>&lt;/stars&gt;</c>
+            </r>
+            <r>
+              <c>&lt;comments&gt;</c>
+            </r>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>&lt;/comments&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/post&gt;</c>
+            </r>
+            <r>
+              <c>&lt;post&gt;</c>
+            </r>
+            <r>
+              <c>&lt;article&gt;</c>
+            </r>
+            <r>
+              <c>How the Join Tool Works and Why You Might Be Getting More Records than Expected</c>
+            </r>
+            <r>
+              <c>&lt;/article&gt;</c>
+            </r>
+            <r>
+              <c>&lt;attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;views&gt;</c>
+            </r>
+            <r>
+              <c>387</c>
+            </r>
+            <r>
+              <c>&lt;/views&gt;</c>
+            </r>
+            <r>
+              <c>&lt;stars&gt;</c>
+            </r>
+            <r>
+              <c>6</c>
+            </r>
+            <r>
+              <c>&lt;/stars&gt;</c>
+            </r>
+            <r>
+              <c>&lt;comments&gt;</c>
+            </r>
+            <r>
+              <c>1</c>
+            </r>
+            <r>
+              <c>&lt;/comments&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/post&gt;</c>
+            </r>
+            <r>
+              <c>&lt;post&gt;</c>
+            </r>
+            <r>
+              <c>&lt;article&gt;</c>
+            </r>
+            <r>
+              <c>Convert a Workflow into an App</c>
+            </r>
+            <r>
+              <c>&lt;/article&gt;</c>
+            </r>
+            <r>
+              <c>&lt;attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;views&gt;</c>
+            </r>
+            <r>
+              <c>109</c>
+            </r>
+            <r>
+              <c>&lt;/views&gt;</c>
+            </r>
+            <r>
+              <c>&lt;stars&gt;</c>
+            </r>
+            <r>
+              <c>6</c>
+            </r>
+            <r>
+              <c>&lt;/stars&gt;</c>
+            </r>
+            <r>
+              <c>&lt;comments&gt;</c>
+            </r>
+            <r>
+              <c>2</c>
+            </r>
+            <r>
+              <c>&lt;/comments&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/attributes&gt;</c>
+            </r>
+            <r>
+              <c>&lt;/post&gt;</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Input</AnnotationText>
+          <DefaultAnnotationText>Input</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="1770" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="post" />
+            <Field name="_Null_" />
+            <Field name="article" />
+            <Field name="comments" />
+            <Field name="stars" />
+            <Field name="views" />
+          </Fields>
+          <Data>
+            <r>
+              <c>1</c>
+              <c>&lt;post&gt;</c>
+              <c>Behind the Scenes of the Tool Mastery Series: Community APIs and Automation</c>
+              <c>1</c>
+              <c>6</c>
+              <c>170</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>&lt;post&gt;</c>
+              <c>How the Join Tool Works and Why You Might Be Getting More Records than Expected</c>
+              <c>1</c>
+              <c>6</c>
+              <c>387</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>&lt;post&gt;</c>
+              <c>Convert a Workflow into an App</c>
+              <c>2</c>
+              <c>6</c>
+              <c>109</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="32" />
+          <Fields>
+            <Field name="Region" />
+            <Field name="Year" />
+            <Field name="Quarter" />
+            <Field name="Sales" />
+            <Field name="Regional ID" />
+          </Fields>
+          <Data>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>57</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>54</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>47</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>76</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>87</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>63</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>24</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>54</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>35</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>75</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>78</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>57</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>88</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>67</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>62</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>32</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>14</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>87</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>54</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>87</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>37</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>34</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>95</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>90</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>86</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>96</c>
+              <c>2</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>33</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>68</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>98</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>26</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>74</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>45</c>
+              <c>8</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="1386" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="32" />
+          <Fields>
+            <Field name="Region" />
+            <Field name="Year" />
+            <Field name="Quarter" />
+            <Field name="Sales" />
+            <Field name="3mo Avg Sale" />
+          </Fields>
+          <Data>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>57</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>54</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>47</c>
+              <c>53</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>76</c>
+              <c>59</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>87</c>
+              <c>70</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>63</c>
+              <c>75</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>24</c>
+              <c>58</c>
+            </r>
+            <r>
+              <c>East</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>54</c>
+              <c>47</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>35</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>75</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>78</c>
+              <c>63</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>57</c>
+              <c>70</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>88</c>
+              <c>74</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>67</c>
+              <c>71</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>62</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>North</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>32</c>
+              <c>54</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>14</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>87</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>54</c>
+              <c>52</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>87</c>
+              <c>76</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>37</c>
+              <c>59</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>34</c>
+              <c>53</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>95</c>
+              <c>55</c>
+            </r>
+            <r>
+              <c>South</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>90</c>
+              <c>73</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q1</c>
+              <c>86</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q2</c>
+              <c>96</c>
+              <c>61</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q3</c>
+              <c>33</c>
+              <c>72</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2019</c>
+              <c>Q4</c>
+              <c>68</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q1</c>
+              <c>98</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q2</c>
+              <c>26</c>
+              <c>64</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q3</c>
+              <c>74</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>West</c>
+              <c>2020</c>
+              <c>Q4</c>
+              <c>45</c>
+              <c>48</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="114" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="87" />
+          <Fields>
+            <Field name="Item ID" />
+            <Field name="Year" />
+            <Field name="Month" />
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Jan</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Feb</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Mar</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Apr</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>May</c>
+              <c>76</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Jun</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Jul</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Aug</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Sep</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Oct</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Nov</c>
+              <c>87</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2019</c>
+              <c>Dec</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Jan</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Feb</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Mar</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Apr</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>May</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Jun</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Jul</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Aug</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Sep</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Oct</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Nov</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2020</c>
+              <c>Dec</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2021</c>
+              <c>Jan</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2021</c>
+              <c>Feb</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2021</c>
+              <c>Mar</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2021</c>
+              <c>Apr</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>3753</c>
+              <c>2021</c>
+              <c>May</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Jan</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Feb</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Mar</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Apr</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>May</c>
+              <c>76</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Jun</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Jul</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Aug</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Sep</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Oct</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Nov</c>
+              <c>87</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2019</c>
+              <c>Dec</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Jan</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Feb</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Mar</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Apr</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>May</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Jun</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Jul</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Aug</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Sep</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Oct</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Nov</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2020</c>
+              <c>Dec</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2021</c>
+              <c>Jan</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2021</c>
+              <c>Feb</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2021</c>
+              <c>Mar</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2021</c>
+              <c>Apr</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>6654</c>
+              <c>2021</c>
+              <c>May</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Jan</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Feb</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Mar</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Apr</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>May</c>
+              <c>76</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Jun</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Jul</c>
+              <c>15</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Aug</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Sep</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Oct</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Nov</c>
+              <c>87</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2019</c>
+              <c>Dec</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Jan</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Feb</c>
+              <c>78</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Mar</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Apr</c>
+              <c>38</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>May</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Jun</c>
+              <c>4</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Jul</c>
+              <c>56</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Aug</c>
+              <c>7</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Sep</c>
+              <c>89</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Oct</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Nov</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2020</c>
+              <c>Dec</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2021</c>
+              <c>Jan</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2021</c>
+              <c>Feb</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2021</c>
+              <c>Mar</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2021</c>
+              <c>Apr</c>
+              <c>66</c>
+            </r>
+            <r>
+              <c>2315</c>
+              <c>2021</c>
+              <c>May</c>
+              <c>89</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText>Output</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="1182" width="840" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Access other records for calculations (e.g. moving averages)</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="90" y="1566" width="840" height="48" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Multi-Row + Cross Tab - Use multi-row to get headers</Text>
+          <Font name="Segoe UI" size="20.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="3" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="246" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Item ID</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[if not isnull([Item ID]) then [Item ID] else [Row-1:Item ID] endif ]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if not isnull([Item ID]) then [Item ID] else [Row-1:Item ID] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="378" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="True" />
+          <UpdateField_Name>Year</UpdateField_Name>
+          <CreateField_Name>New Field</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression><![CDATA[if not isnull([Year]) then [Year] else [Row-1:Year] endif ]]></Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[if not isnull([Year]) then [Year] else [Row-1:Year] endif ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="246" y="894" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>Region</UpdateField_Name>
+          <CreateField_Name>Regional ID</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:Regional ID]+1</Expression>
+          <GroupByFields>
+            <Field field="Region" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:Regional ID]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="330" y="1650" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>NotContains</Operator>
+            <Field>DownloadData</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-19 13:31:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>/</Operand>
+              <StartDate>2022-12-19 13:31:26</StartDate>
+              <EndDate>2022-12-19 13:31:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!Contains([DownloadData],"/")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="438" y="1638" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>DownloadData</UpdateField_Name>
+          <CreateField_Name>value</CreateField_Name>
+          <CreateField_Type>V_String</CreateField_Type>
+          <CreateField_Size>255</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>If contains([Row+1:DownloadData],'&lt;') then  null() else [Row+1:DownloadData] endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>If contains([Row+1:DownloadData],'&lt;') then  null() else [Row+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="558" y="1638" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>Contains</Operator>
+            <Field>DownloadData</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-12-19 13:35:33</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>&lt;</Operand>
+              <StartDate>2022-12-19 13:35:33</StartDate>
+              <EndDate>2022-12-19 13:35:33</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Contains([DownloadData],"&lt;")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="738" y="1626" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Postnumber" />
+          </GroupFields>
+          <HeaderField field="DownloadData" />
+          <DataField field="value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: if !startswith([DownloadData], '&lt;post&gt;')&#xA;then [Row-1:Postnumber] else [Row-1:Postnumber]+1 endif" name="Postnumber" source="CrossTab:Group:Concat:" type="Int32" />
+            <Field name="article" size="2048" source="CrossTab:Header:DownloadData:article:Concat:" type="V_String" />
+            <Field name="attributes" size="2048" source="CrossTab:Header:DownloadData:attributes:Concat:" type="V_String" />
+            <Field name="comments" size="2048" source="CrossTab:Header:DownloadData:comments:Concat:" type="V_String" />
+            <Field name="post" size="2048" source="CrossTab:Header:DownloadData:post:Concat:" type="V_String" />
+            <Field name="stars" size="2048" source="CrossTab:Header:DownloadData:stars:Concat:" type="V_String" />
+            <Field name="views" size="2048" source="CrossTab:Header:DownloadData:views:Concat:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Postnumber" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings>
+        <Position x="642" y="1626" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"DownloadData","Postnumber","value"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">True</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="822" y="1626" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="attributes" selected="False" />
+            <SelectField field="post" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="210" y="1650" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Postnumber</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if !startswith([DownloadData], '&lt;post&gt;')
+then [Row-1:Postnumber] else [Row-1:Postnumber]+1 endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if !startswith([DownloadData], '&lt;post&gt;')
+then [Row-1:Postnumb...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="True" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="37" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output26" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="False" />
+    <ZoomLevel value="-1" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>4 MultiRow_Intro</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="2ee09668-4de6-45f6-a9e6-6d665a150f37" />
+      <Telemetry>
+        <PreviousWorkflowId value="" />
+        <OriginWorkflowId value="2ee09668-4de6-45f6-a9e6-6d665a150f37" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

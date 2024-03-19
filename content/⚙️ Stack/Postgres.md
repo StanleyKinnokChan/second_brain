@@ -20,3 +20,4 @@ psql -U <user_name>
 
 **psql cheatsheet**
 https://gist.github.com/StanleyKinnokChan/b1160d77647c56a184eb464ab92a332b
+

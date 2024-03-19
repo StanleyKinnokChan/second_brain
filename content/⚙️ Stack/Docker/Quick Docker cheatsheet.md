@@ -36,3 +36,7 @@ Use the docker exec command to start a shell inside the container. ReplaceÂ **â€
 docker exec -it <container_name_or_id> bash
 ```
 
+Use docker inspect to check the IP of the container:
+```
+docker inspect 2fbd05836471
+```

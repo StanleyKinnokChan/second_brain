@@ -13,8 +13,6 @@ COPY pipeline.py pipeline.py
 ENTRYPOINT [ "python", "pipeline.py"]
 ```
 
-FROM
-
 
 
 reference: https://docs.docker.com/reference/dockerfile/#:~:text=A%20Dockerfile%20is%20a%20text,can%20use%20in%20a%20Dockerfile.

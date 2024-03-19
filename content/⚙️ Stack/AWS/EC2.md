@@ -18,7 +18,7 @@
         - monolithic application stacks
         - migrated application workloads/ disaster recovery
 
-[[Connection]]
+[[⚙️ Stack/AWS/EC2/Connection]]
 
 [[Scaling]]
 

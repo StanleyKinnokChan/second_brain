@@ -1,7 +1,7 @@
 
 Airflow only works in Linux-like environments (Linux/MacOS). You inevitably have to use WSL. When 
 
-**Step1:** [[Create & activate python venv]]
+**Step1:** [[Create & activate python venv &package]]
 
 **Step2:** Install airflow using pip ([official website](https://airflow.apache.org/docs/apache-airflow/stable/installation/installing-from-pypi.html)). The constraints should match the python version, which can be checked via `python --version`
 ```

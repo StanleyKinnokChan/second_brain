@@ -2,8 +2,6 @@
 title: 
 tags:
 ---
-![airflow tasklifecycle](
-
 
 ![[Ariflow Architecture.png]]
 - Data engineer created all the pipeline and configure the airflow setup via airflow.cfg, like type of executor and which DB to use. 

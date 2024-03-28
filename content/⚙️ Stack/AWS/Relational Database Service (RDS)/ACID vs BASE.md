@@ -3,9 +3,7 @@
 - two database transaction model
 
 - CAP therom
-    -
 
-    [[ACID vs BASE/Untitled.png]]
 
 
 [[ACID vs BASE/Untitled 1.png]]

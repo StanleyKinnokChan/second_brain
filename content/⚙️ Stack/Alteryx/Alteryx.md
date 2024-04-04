@@ -22,7 +22,7 @@
 
 [[multirow tool]]
 
-[[macro]]
+[[⚙️ Stack/DBT/Macro]]
 
 [[download]]
 

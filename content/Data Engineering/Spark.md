@@ -10,9 +10,8 @@ You submit a data processing job in the form of some code that initiates a _dri
 Spark uses a data structure called a _resilient distributed dataset_ (RDD)
 
 
-
-**Example - loading a df:**
-The `%%pyspark` line at the beginning is called a _magic_, and tells Spark that the language used in this cell is PySpark. You can select the language you want to use as a default in the toolbar of the Notebook interface, and then use a magic to override that choice for a specific cell.
+**Example - loading a DF:**
+The line at the beginning is called a _magic_, and tells Spark that the language used in this cell is PySpark. You can select the language you want to use as a default in the toolbar of the Notebook interface, and then use a magic to override that choice for a specific cell.
 ```
 %%pyspark
 df = spark.read.load('Files/data/products.csv',

@@ -18,7 +18,7 @@
 
 [[remove history and push the local version to remote]]
 
-[[Branch]]
+[[⚙️ Stack/Git/Branch]]
 
 [[remove history]]
 

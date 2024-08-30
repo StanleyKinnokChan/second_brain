@@ -80,13 +80,13 @@ bikes_df.write.mode("overwrite").parquet('Files/product_data/bikes.parquet')
 
 
 **Example - output as parquet files
-Creating a [[Delta Lake for Spark]] table uses almost identical syntax – it’s as easy as switching your format from "parquet" to "delta":
+Creating a [[2.1 Delta Lake for Spark]] table uses almost identical syntax – it’s as easy as switching your format from "parquet" to "delta":
 ```
 df.write.format("parquet").saveAsTable("table1_as_parquet")
 ```
 
 **Example - output as Delta table**
-Creating a [[Delta Lake for Spark]] table uses almost identical syntax – it’s as easy as switching your format from "parquet" to "delta":
+Creating a [[2.1 Delta Lake for Spark]] table uses almost identical syntax – it’s as easy as switching your format from "parquet" to "delta":
 ```
 df.write.format("delta").saveAsTable("table1")
 ```

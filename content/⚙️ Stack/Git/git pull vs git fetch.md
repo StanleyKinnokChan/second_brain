@@ -2,7 +2,7 @@
 
 ![[Pasted image 20240307120811 1.png]]
 
-git pull = git fetch + git merge
+[[git pull]] = git fetch + git merge
 
 ![[Pasted image 20240307120958 1.jpg]]
 

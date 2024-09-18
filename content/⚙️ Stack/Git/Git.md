@@ -6,7 +6,7 @@
 
 [[Add tag to old version]]
 
-[[Tagging]]
+[[git tag]]
 
 [[Modify git commited history]]
 
@@ -18,7 +18,7 @@
 
 [[remove history and push the local version to remote]]
 
-[[⚙️ Stack/Git/Branch]]
+[[git branch]]
 
 [[remove history]]
 

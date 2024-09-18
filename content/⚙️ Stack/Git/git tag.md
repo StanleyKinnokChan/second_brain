@@ -49,3 +49,7 @@ Finally, push the tag to your remote repository on GitHub:
     ```
     
     This will officially mark the old version as a release, and users can access it in the "Releases" section of your GitHub repository.
+
+
+**git describe**
+git describe can help to see the latest anchor point (tag)

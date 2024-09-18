@@ -16,6 +16,6 @@ Second Normal Form (2NF):
 
 Third Normal Form (3NF):
 - 2NF
-- Ensure each column to directly related to primary key, but not others non-prime attribute
+- Ensure each column to **DIRECTLY** related to primary key, but not others non-prime attribute
 - = removal of transitive dependency on another key
 

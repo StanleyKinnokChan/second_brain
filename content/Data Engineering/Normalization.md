@@ -1,6 +1,7 @@
 ---
 title: 
 tags:
+  - Database
 ---
 Normalization is the process of structuring a database to improve data integrity and reduce redundancy.
 

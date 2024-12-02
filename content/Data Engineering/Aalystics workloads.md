@@ -49,3 +49,6 @@ When to Use a DW
 - When you need to integrate data from several sources
 - When users are confused by the data structures, table names or column names 
 - When building reports in BI tool
+
+ref:
+https://www.stitchdata.com/resources/oltp-vs-olap/

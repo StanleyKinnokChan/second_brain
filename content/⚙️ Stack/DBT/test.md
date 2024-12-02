@@ -9,57 +9,63 @@ test are assertions you make about your models and other resources in your dbt p
 
 Testing should be **automated, fast, reliable, informative, and focused.**
 
-when you write a test using where clause (e.g. ID>100), you are testing there would be row that return error (error if ID>100) 
+**4 built-in Unit Test**
+- unique
+- not_null
+- accepted_values: an list of values
+- relationships (all of the records in a child table, the table being tested, should have a corresponding record in a parent table)
 
-generic test
-
+**Generic Test**
 - a parameterized query that accepts arguments
 - package/ build-in (e.g. not null)
 - for customized one, write a {% test <test_name>(model, column_name) %} in the /test/generic folder
-
-![Untitled](test%207dda7036a441469aa2a758ea589d4f0f/Untitled.png)
-
 - add property in the model/ column in yml file
 - run by dbt run/ dbt build…
 
-specific test
+>[!tip] Tips / Intuition
+> When you write a test using where clause (e.g. ID>100), any row with a ID>100 returns error. In sort, a test that pass would have 0 row as a result of the test
 
-- defined in a separated test folder
-- customized and reusable
+```
+Example of a not_null test is below. 
 
-source freshness test
+{% test not_null(model, column_name) %}  
+  
+select *  
+from {{ model }}  
+where {{ column_name }} is null  
+  
+{% endtest %}
+```
+
+**source freshness test**
 
 - only work for raw data (source model in staging folder)
 - use command dbt source freshness
 
-project test
+**project test**
 
 - test act on dbt_project.yml
 - test the project as a whole
 - good to use as a CI checks
 
-Reason of test:
-
-![Untitled](test%207dda7036a441469aa2a758ea589d4f0f/Untitled%201.png)
-
-[what to test](test%207dda7036a441469aa2a758ea589d4f0f/what%20to%20test%20d80b0c84bce4483e91433315f9095378.md)
-
-![Untitled](test%207dda7036a441469aa2a758ea589d4f0f/Untitled%202.png)
-
-![Untitled](test%207dda7036a441469aa2a758ea589d4f0f/Untitled%203.png)
-
+**Behavior of failing the tests:**
 dbt build: model0 → test → model1 →test…..Tests on upstream resources will block downstream resources from running, and a test failure will cause those downstream resources to skip entirely
 
-dbt build —fail-fast: abort the whole operation immediately if there is any test failure
+**dbt build —fail-fast:** abort the whole operation immediately if there is any test failure
 
-**—store-failture**
+##### severity
+- `severity`: `error` or `warn` (default: `error`)
+	- error: check `error_if` first then check `warn_if`
+	- warn: ignore error_if and check `warn_if`
+- `error_if`: conditional expression (default: `!=0`)
+- `warn_if`: conditional expression (default: `!=0`)
+##### store-failture
+when using —store-failture, a test result is stored in a default schema dbt_test__audit and it can be called by a SQL statement listed on the command line result. You can put the SQL into a new sql file and type dbt show -m <file_name> on command line to see the result.
 
-when using —store-failture, a test result is stored and it can be called by a SQL statement listed on the command line result. You can put the SQL into a new sql file and type dbt show -m <file_name> on command line to see the result.
-
-![Untitled](test%207dda7036a441469aa2a758ea589d4f0f/Untitled%204.png)
-
-[package](test%207dda7036a441469aa2a758ea589d4f0f/package%207e1c1316e1004281862fe8a708aa5a60.md)
-
-[test Configuration](test%207dda7036a441469aa2a758ea589d4f0f/test%20Configuration%20a90733120afa4499bf774292b0f91760.md)
-
-[Deployment](test%207dda7036a441469aa2a758ea589d4f0f/Deployment%20a748dc0dae7b4c6a88e64d46950597b5.md)
+##### store_failures_as
+It is default as store-failture and you specify how the result should be stored. It can be:
+- `ephemeral` — nothing stored in the database (default)
+- `table` — test failures stored as a database table
+- `view` — test failures stored as a database view
+##### where
+where config filter out the rows that need to be tested

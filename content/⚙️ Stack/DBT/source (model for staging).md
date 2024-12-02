@@ -1,3 +1,3 @@
 # source (model for staging)
 
-![Untitled](source%20(model%20for%20staging)%20c65af41cddec4a5994657093cefbc0db/Untitled.png)
+By default, _dbt will use the source's name as the schema name and target database as database. It can be overwritten by specification. 

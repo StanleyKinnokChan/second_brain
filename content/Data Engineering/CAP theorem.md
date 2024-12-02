@@ -1,6 +1,7 @@
 ---
 title: 
 tags:
+  - Database
 ---
 The **CAP theorem** states that any [distributed data store](https://en.wikipedia.org/wiki/Distributed_data_store "Distributed data store") can provide only two of the following three guarantees:
 

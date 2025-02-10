@@ -10,6 +10,14 @@ tags:
 - with machine learning elements
 - not for day-to-day operation
 
+Functions:
+- Working with files in a data lake
+- Ingesting and transforming data with pipelines (oschestration)
+- Querying and manipulating data with SQL
+- Processing and analyzing data with Apache Spark
+- Exploring data with Data Explorer
+- Integrating with other Azure data services (e.g. Purview, power bi, MS machine learning)
+
  supports three types of distributed tables: 
  - hash
  - round-robin

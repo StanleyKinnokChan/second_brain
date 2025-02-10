@@ -19,8 +19,8 @@ These are the Azure product of the [[Aalystics workloads]]:
 #### Azure Data Warehousing
 Symmetric Multiprocessing (SMP):
 - Azure SQL Database
-- SQL Server in a VM
+- SQL Server on VM
 Massively Parallel Processing (MPP):
-- Azure Synapse Analytics (SQL DW)
+- [[Azure Synapse Analytics]] (SQL DW)
 - Apache Hive on HDInsight
 - Interactive Query (Hive LLAP) on HDInsight

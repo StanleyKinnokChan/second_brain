@@ -5,8 +5,6 @@ tags: []
 ### 👋 Who am I?
 I am Stanley Chan, a UK-based data consultant who adepts at navigating both data analysis and engineering roles.. I specialize in delivering high-quality data projects to the companies I serve. As I enter my second year in this field, I have demonstrated a strong ability to learn and have received numerous positive feedback from both my company and clients. I am committed to continuous learning and staying updated with the latest developments in the dynamic world of data technology.
 
-Up to now, I have earned the following official badges: [[My badges]]
-
 Occasionally, I make some personal projects and useful script of utilities: [Github](https://github.com/StanleyKinnokChan)
 
 >[!info] About this site

@@ -1,0 +1,17 @@
+---
+title: 
+tags:
+  - AI
+---
+https://www.promptingguide.ai/techniques
+
+| Technique                 | Explanation                                                                                                                                  | Example                                                                                                                                                          |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Role Prompting            | adopt a specific persona or role when generating text                                                                                        |                                                                                                                                                                  |
+| Emotion Prompting         | incorporating emotional cues into AI interactions can enhance performance                                                                    | YOU MUST PROVIDE AT LEAST 50 WORDS OR SOMEONE DIES.                                                                                                              |
+| Chain of Thought          | encourage the LLM to think step-by-step, rather than jumping to the final answer directly.                                                   |                                                                                                                                                                  |
+| In Context Learning       | being shown examples within the input prompt, rather than through explicit retraining or fine-tuning                                         | Translate the following sentences to French:<br><br>English: I love apples. → French: J'aime les pommes.  <br><br>English: Where is the train station? → French: |
+| Self-Consistency Sampling | Generate multiple answers using **chain-of-thought prompting**, then choose the most common one (majority vote) instead of the first answer. | Ask questinon with low temperature and run multiple times                                                                                                        |
+|                           |                                                                                                                                              |                                                                                                                                                                  |
+|                           |                                                                                                                                              |                                                                                                                                                                  |
+|                           |                                                                                                                                              |                                                                                                                                                                  |

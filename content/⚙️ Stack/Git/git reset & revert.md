@@ -7,3 +7,9 @@
 
 Good reference:
 https://datacamp.com/tutorial/git-reset-revert-tutorial
+
+bring back the deleted commit/ branch via `git reset head`
+```
+git reflog
+git reset --hard <hash from reflog>
+```

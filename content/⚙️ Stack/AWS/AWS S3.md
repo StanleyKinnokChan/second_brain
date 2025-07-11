@@ -1,4 +1,4 @@
-# S3
+# AWS S3
 
 **Overall**
 
@@ -221,7 +221,7 @@
                 - **compliance** - can’t be adjusted, deleted, overwritten during the period, even by account root user
                 - **governance** - special permissions can be granted allowing lock settings to be adjusted before the period expires
         2. **Legal hold**
-            - set On or Off, mainly for prevent accidentally delete
+            - A manual lock that prevents object deletion, regardless of retention period. No expiry.
 - **Access points**
     - simplify managing access to S3 buckets/Objects via endpoint
     - like a bucket policy
@@ -237,3 +237,4 @@
 - **S3 transfer acceleration**
     - enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket
     - users expect real time access to a stream of images from other users around the worldusers expect real time access to a stream of images from other users around the world
+

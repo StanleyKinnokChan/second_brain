@@ -1,6 +1,7 @@
 # AWS Transfer Family
 
 [[AWS Transfer Family/Untitled.png]]
+For transferring data if FTP has to be used
 
 - managed file transfer service that supports transferring TO/FROM **S3 & EFS**
 - provide managed “**servers**” which support many **protocols**

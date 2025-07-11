@@ -24,3 +24,5 @@
 💡 A data silo is **a collection of data held by one group that is not easily or fully accessible by other groups in the same organization**
 
 </aside>
+
+

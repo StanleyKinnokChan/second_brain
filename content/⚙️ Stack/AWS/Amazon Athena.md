@@ -8,3 +8,9 @@
 - no infrastructure itself, just a translation service without loading/ transformation
 - **querying logs (**AWS logs/ glue data catalog/ web server logs)
 - **Athena federated query**…other data sources as well that is not S3
+
+security:
+- IAM policies
+- at rest: data is S3 (inherent S3 encryption)
+- in transit: using TLS between Athena and S3 and JDBC
+- fine grained access using the AWS glue catalog

@@ -10,7 +10,7 @@ Here is some note for the solution architecture when I took the AWS course. This
 
 **Fundamental**
 
-[[S3]]
+[[AWS S3]]
 
 [[VPC]]
 
@@ -20,9 +20,9 @@ Here is some note for the solution architecture when I took the AWS course. This
 
 [[Cognito]]
 
-[[Cloudformation]]
+[[CloudFormation]]
 
-[[Cloudwatch]]
+[[AWS Cloudwatch]]
 
 [[AWS Control Tower]]
 
@@ -48,11 +48,11 @@ Here is some note for the solution architecture when I took the AWS course. This
 
 [[AWS Lambda]]
 
-[[Cloudwatch events and eventBridge]]
+[[AWS EventBridge (Cloudwatch events)]]
 
 [Simple Notification Service (SNS)](Solution%20Architecture%20c5d577a3b6ba446fac253568b51efd79/Simple%20Notification%20Service%20(SNS)%20ffeb4f28b96d423d80e15eb25f7b828f.md)
 
-[[Step functions]]
+[[AWS Step functions]]
 
 [[API gateway]]
 

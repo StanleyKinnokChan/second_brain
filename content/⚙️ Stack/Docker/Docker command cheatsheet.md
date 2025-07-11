@@ -6,15 +6,24 @@ tags:
 
 ### **TLDR**
 
+start a new container and run it
+```
+docker run
+```
+
+resume a container
+```
+docker start <container_id>
+```
+
+stop a container
+```
+docker stop <container_id>
+```
 
 Find the name or ID of the image/ container
 ```
 docker [image|container] ls
-```
-
-stop container
-```
-docker container stop <ID>
 ```
 
 stop all container
@@ -22,9 +31,14 @@ stop all container
 docker container stop $(docker container ls -aq)
 ```
 
-remove all stop container
+remove all stop container/image, -f for removing the running container
 ```
-docker container prune
+docker container|image [-f] prune 
+```
+
+delete a image
+```
+docker rmi <image>
 ```
 
 delete all images
@@ -32,7 +46,7 @@ delete all images
 docker image rm $(docker image ls -aq)
 ```
 
-Build container from the dockerfiles (customerize)
+Build/Re-buld image from the dockerfiles (customize)
 ```
 Docker build . -t <custom_container_name> <folder location (eg .)>
 ```
@@ -60,5 +74,22 @@ docker inspect 2fbd05836471
 rename tag
 ```
 docker tag <old_name> <new_name>
+```
+
+ports:
+```
+# default address = 0.0.0.0
+docker run -p 50000:5000    
+
+# You can also specify the address before the localhost port
+docker run -p 127.0.0.1:5000:5000
+
+```
+
+Combined example
+```
+#create a new container from img, in detached mode exposed 3000 port of local host to 80 port in container. Auto-emove the container after stopping it, rename it as <container name>
+
+docker run -p 3000:80 -d --rm --name <container_name> <container_id>
 ```
 

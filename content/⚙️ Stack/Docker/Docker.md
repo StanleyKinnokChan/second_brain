@@ -26,5 +26,5 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgre
 
 
 **Reference:** 
-[[Quick Docker cheatsheet]]
+[[Docker command cheatsheet]]
 [[Dockerfile]]

@@ -26,7 +26,13 @@ git checkout -b ＜new-branch＞
 
 #### Show current branch 
 ```
-git rev-parse --abbrev-ref HEAD`
+git state   # also show the files wait to be commited
+git rev-parse --abbrev-ref HEAD    # only the branch name
+```
+
+#### Delete branch 
+```
+git branch -D <branch1> <branch2> ...
 ```
 
 #### Forcefully move the branch to point to a specific commit

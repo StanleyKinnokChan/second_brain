@@ -93,6 +93,7 @@
     4. Performance Efficiency
     5. Cost Optimization
     6. Sustainability
+
 - **Migration process**
 
     [[Introduction of AWS/Untitled 11.png]]

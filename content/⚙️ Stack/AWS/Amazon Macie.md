@@ -2,12 +2,12 @@
 
 [[Amazon Macie/Untitled.png]]
 
-- data security & privacy service, classifying the data as private/ sensitive
+
+- data security & privacy service, classifying the data as private/ sensitive (PII)
 - discover, monitor & protect data… stored in S3 buckets
 - **automated discovery** of sensitive data (PII, PHI, finance)
 - ma**naged data identifiers** - built-in - ML/patterns
     - growing list of common sensitive data types
-        - credential, finance, personal ID….
 - **custom data identifiers** - proprietary - regex based
     - regex pattern, keywords, ignore words, max. match distance
 - integrates with security hub & evenbridge

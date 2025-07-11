@@ -1,4 +1,4 @@
-# leetcode SQL50-
+# leetcode SQL50
 
 **[1070. Product Sales Analysis III](https://leetcode.com/problems/product-sales-analysis-iii/):** Double column filtering with IN keywords 
 

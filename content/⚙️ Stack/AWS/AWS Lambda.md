@@ -6,6 +6,7 @@
 
     - Function-as-a-service (FaaS) - short running & focused (**Serverless!**)
     - a deployment package - a **piece of code** with specific **runtime** (Python 3.8) in **a runtime env.**
+    - scaled automatically
     - env. has a **direct memory** + **indirect CPU** allocation, CPU scales with memory
     - billed for the duration that a function runs
     - as default, each time you run lambda function it is in a new env.
@@ -18,11 +19,9 @@
         - real time stream data processing (kinesis+lambda)
 - **Two Network mode**
     1. public lambda
-
         [[AWS Lambda/Untitled 1.png]]
 
     2. Private Lambda
-
         [[AWS Lambda/Untitled 2.png]]
 
         - network is created along with lambda functions

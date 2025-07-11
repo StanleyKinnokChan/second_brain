@@ -7,10 +7,17 @@ A Dockerfile is **a text document that contains all the commands a user could c
 Example of an dockerfile
 ```
 FROM python:3.9-alpine
+
 EXPOSE 80  //expose container port
+
 RUN pip install pandas   //run when building image (for resource)
+
 WORKDIR /app
+
 COPY pipeline.py pipeline.py
+
+VOLUME ["/app/folder"]
+
 ENTRYPOINT [ "python", "pipeline.py"]
 ```
 

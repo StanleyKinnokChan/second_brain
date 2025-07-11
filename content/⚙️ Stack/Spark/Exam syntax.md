@@ -21,29 +21,29 @@ df = spark.createDataFrame(
 )
  
 # column rename (must be done one by one)
-storesDF.withColumnRenamed("existing", "new")
+df.withColumnRenamed("existing", "new")
 
 # filter condition needs to be in bracket (|or &and ~not)
-storesDF.filter((col("sqft") <= 25000) | (col("customerSatisfaction") >= 30)) # Alias .where()
+df.filter((col("sqft") <= 25000) | (col("customerSatisfaction") >= 30)) # Alias .where()
 
 # new formular of new column
-storesDF.withColumn("employeesPerSqft", col("numberOfEmployees") / col("sqft"))
+df.withColumn("employeesPerSqft", col("numberOfEmployees") / col("sqft"))
 
 # cast datatype
-storesDF.withColumn("storeId, col("storeId").cast(StringType()))
+df.withColumn("storeId, col("storeId").cast(StringType()))
 
 # constant as new column
-storesDF.withColumn("modality", lit("PHYSICAL"))
+df.withColumn("modality", lit("PHYSICAL"))
 
 # split column 
-storesDF.withColumn("storeValueCategory", split(col("storeCategory"), "_")[0])  
+df.withColumn("storeValueCategory", split(col("storeCategory"), "_")[0])  
 .withColumn("storeSizeCategory", split(col("storeCategory"), "_")[1]))
 
 # explode array
-storesDF.withColumn("productCategories", explode(col("productCategories")))
+df.withColumn("productCategories", explode(col("productCategories")))
 
 # replace string
-storesDF.withColumn("storeDescription", regexp_replace(col("storeDescription"), "<string_old>", "<string_new>"))
+df.withColumn("storeDescription", regexp_replace(col("storeDescription"), "<string_old>", "<string_new>"))
 
 # drop all duplications
 - DataFrame.distinct()
@@ -62,26 +62,26 @@ df.na.drop(how="All")
 df.drop(<col1>) # no-op if no col is given 
 
 # approx_count_dictinct, agg function is a must
-storesDF.agg(approx_count_distinct(col("division"), 0.15).alias("divisionDistinct")) # the number is the allowed standard deviation, the higher the faster
+df.agg(approx_count_distinct(col("division"), 0.15).alias("divisionDistinct")) # the number is the allowed standard deviation, the higher the faster
 
 # return a mean
-storesDF.agg(mean(col("sqft")).alias("sqftMean"))
+df.agg(mean(col("sqft")).alias("sqftMean"))
 
 # returns a GroupedData object (column format is flexible)
 df.groupBy(“division”, “storeCategory”)
 df.groupBy().mean()
 
 # reverse sorted alphabetically
-storesDF.orderBy(col("division").desc())
+df.orderBy(col("division").desc())
 
 # sample 15% data with replacement
 df.sample(True, fraction=0.15)
 
 # change from UNIX eapoch format to Java's simpledateformat  
-storesDF.withColumn("openDateString", from_unixtime(col("openDate"), "EEE, MMM d, yyyy h:mm a") # result: "Sunday, Dec 4, 2008 1:05 PM"
+df.withColumn("openDateString", from_unixtime(col("openDate"), "EEE, MMM d, yyyy h:mm a") # result: "Sunday, Dec 4, 2008 1:05 PM"
 
 # get dateofyear/month/quarter... from a timestamp, must not from the UNIX epoch, so cast first
-storesDF.withColumn("openTimestamp", col("openDate").cast("Timestamp"))  
+df.withColumn("openTimestamp", col("openDate").cast("Timestamp"))  
 .withColumn("dayOfYear", dayofyear(col("openTimestamp")))
 
 # join( df, condition, method)
@@ -99,7 +99,7 @@ df1.union(df2)
 df1.unionByName(df2)
 
 # first two characters of column
-storesDF.withColumn(“division”, col(“division”).substr(0, 2))
+df.withColumn(“division”, col(“division”).substr(0, 2))
 
 # extracts the value for column sqft from the first row of
 df.first().column_name
@@ -121,7 +121,7 @@ df.write.json(filePath)
 df.write.partitionBy('col1').parque(filePath)
 
 # overwrite mode output as text
-storesDF.write.mode("overwrite").text(filePath)
+df.write.mode("overwrite").text(filePath)
 ```
 
 Properties Config 
@@ -132,7 +132,7 @@ spark.sql.adaptive.coalescePartitions.enabled
 # maximum size of an automatically broadcasted DataFrame when performing a join
 spark.sql.autoBroadcastJoinThreshold
 
-#  skewed partitions are automatically detected and subdivided into smaller partitions when joining two DataFrames together
+# skewed partitions are automatically detected and subdivided into smaller partitions when joining two DataFrames together
 spark.sql.adaptive.skewedJoin.enabled
 
 # adjust the number of partitions used in wide transformations like join()
@@ -141,15 +141,15 @@ spark.sql.shuffle.partitions
 
 Others
 ```
-# cache the partitions of DataFrame storesDF only in Spark’s memory
-storesDF.persist(StorageLevel.MEMORY_ONLY).count()
+# cache the partitions of DataFrame df only in Spark’s memory
+df.persist(StorageLevel.MEMORY_ONLY).count()
 
 # sql query
 df.createOrReplaceTempView("df_view")
 spark.sql("select * from df_view")
 
 # printSchema
-storesDF.printSchema()
+df.printSchema()
 
 # register udf
 spark.udf.register("<udf_name>", func, "STRING") # UDF with Spark SQL
@@ -163,6 +163,6 @@ df = df.withColumn("performance", udf_name(col("column_name")) )
 df.describe()
 df.describe(["name","age"]).show()
 
-# applies the function assessPerformance() to each row of DataFrame storesDF
- [assessPerformance(row) for row in storesDF.collect()]
+# applies the function assessPerformance() to each row of DataFrame df
+ [assessPerformance(row) for row in df.collect()]
 ```

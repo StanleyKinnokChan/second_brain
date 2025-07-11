@@ -63,6 +63,7 @@
     - Two Function:
         1. provide a target in your VPC route table for internet-routable traffic
         2. perform NAT for instances that have been assigned public IPv4
+	    - A network-level device that allows private EC2 instances to initiate outbound traffic to the internet (It hides private IPs behind a public one.)
     - runs from within the AWS public zone, traffic between VPC and internet/ AWS public zone
     - regionally resilient. 1 gate cover all VPC across AZs. Each VPC will have ≥0 gateway
     - maintain the allocated public IP of the resource (eg EC2), and direct to the resource private ID. The **public ID actually doesn’t touch any resource/OS instance directly**
@@ -78,6 +79,7 @@
         - good to have 10.x.y.z range
     - Good to have 4 subset = 4 regions = 3 for resilient, 1 for future spare
 - **bastion/ jump-box**
+    - If YOU (a person) need to manually access private EC2s (e.g. SSH into the EC2 from your laptop)→ use a Bastion Host
     - instance in a public subnet to allow incoming management connections arrive there, then access internal VPC resources
     - use it if a VPC is highly secure and provide the only entry point to access the VPC
 
@@ -115,8 +117,7 @@
 
 - **Security Groups - stateful/ instance level**
 
-    Virtual firewall at the instance level
-
+    - stateful: what come-in can go out after/ what go out can come back after
     - no explicit deny, only explicit allow, can’t block specific bad actors because it cannot deny a specific IPs
     - Supports IP/CIDR
     - SGs of one resource can references **logical resources with a existing SGs:**

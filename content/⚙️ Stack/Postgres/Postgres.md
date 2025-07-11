@@ -2,8 +2,6 @@
 title: 
 tags:
 ---
-
-
 **Set up using docker**
 https://hub.docker.com/_/postgres
 
@@ -16,7 +14,6 @@ docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgre
 docker exec -it some-postgres bash
 psql -U <user_name>
 ```
-
 
 **psql cheatsheet**
 https://gist.github.com/StanleyKinnokChan/b1160d77647c56a184eb464ab92a332b

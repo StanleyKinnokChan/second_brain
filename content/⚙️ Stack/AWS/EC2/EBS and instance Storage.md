@@ -1,5 +1,14 @@
 # EBS and instance Storage
 
+• An EBS (Elastic Block Store) Volume is a network drive you can attach to your instances (like a usb) while they run
+• It allows your instances to persist data, even after their termination
+• They can only be mounted to one instance at a time, but multiple instance can have multiple EBS
+• It can be detached from an EC2 instance and attached to another one quickly
+• "Delete on Terminatio" options => whether it should be deleted when a instance terminiates
+• can increase size (not decrease) or change type on flight
+
+
+
 - **Storage performance**
     - IO (block) size per read/write * IOPS (how many read/write can handle per second) = throughput (XX MB/s)
         - **Storage type**

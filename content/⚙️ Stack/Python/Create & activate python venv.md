@@ -1,8 +1,8 @@
 
 Window:
 ```
-python3 -m venv env
-env\Scripts\activate.bat
+python3 -m venv venv
+venv\Scripts\activate.bat
 ```
 
 Ubuntu

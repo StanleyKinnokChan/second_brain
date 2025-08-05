@@ -1,7 +1,7 @@
 
 
-- Use local values block to avoid repeating the same values or expressions multiple times in a configuration
-- predefined the large map/ asrrays/ transformation of variables that will be re-used
+- Use local values block to avoid repeating the same values, expressions or calculation multiple times in a configuration
+- predefined the large map/ arrays/ transformation of variables that will be re-used
 - recommend putting these in a separate file called `locals.tf` so they can be easily referenced
 - access local values using the “**local.**” prefix followed by the local value name
 e.g. 

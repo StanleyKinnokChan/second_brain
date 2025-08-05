@@ -72,3 +72,24 @@
     - temp space is to pre-download things, eg database connection. But have to maintain clean
 
 [[AWS Lambda/Untitled 7.png]]
+
+
+```
+# to add required package into lambda
+
+
+# linux
+mkdir -p python
+pip install requests -t python/
+zip -r requests_layer.zip python
+
+# window
+mkdir python
+pip install -r requirements.txt -t python
+Compress-Archive -Path lambda_function\* -DestinationPath lambda_function.zip -force
+powershell Compress-Archive -Path python -DestinationPath requests_layer.zip
+
+# make a folder named python
+# -t flag = install package inside the folder instead of default site-packages
+# make a zip up folder that recursively include all files and subdirectories
+```

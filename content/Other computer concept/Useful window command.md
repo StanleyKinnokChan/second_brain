@@ -5,8 +5,8 @@ tags: []
 Battery report
 ```
 powercfg /batteryreport
+./battery-report.html
 ```
-
 
 Delete a folder that contain large amount of files
 ```
@@ -50,4 +50,10 @@ right click, then ctrl + shift + enter
 create an empty file
 ```
 type NUL > filename.txt
+```
+
+show file structure
+```
+cd ./path
+tree /f
 ```

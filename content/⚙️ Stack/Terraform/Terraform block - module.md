@@ -2,8 +2,12 @@
 A **module** in Terraform is a container for multiple resources that are used together. Modules can be:
 
 - **Local**: in a subfolder.
-- **Remote**: GitHub, Terraform Registry, etc.
+- **Remote**: GitHub, Terraform Registry, etc. (e.g. source = "terraform-aws-modules/vpc/aws")
 
+Why?
+- Code resuability
+- simplified management with manageable components
+- consistent deployment
 
 Basic Structure
 File Tree Example:

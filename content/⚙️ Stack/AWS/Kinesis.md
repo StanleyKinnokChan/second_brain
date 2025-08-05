@@ -196,7 +196,7 @@ Consumer
 	- Enhanced (enhanced broker metrics)
 	- Topic-level (enhanced topic metrics)
 
-![[Pasted image 20250625104421.png]]
+![[Kinesis Data stream vs KMS.png]]
 
 #####  **Kinesis video streams**
 

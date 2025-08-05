@@ -18,6 +18,6 @@
 - pay as you use per GB
 - have to use snowcone if no internet
 - 
-![[Pasted image 20250619174607.png]]
+![[AWS DataSync.png]]
 
 ![[Pasted image 20250619174721.png]]

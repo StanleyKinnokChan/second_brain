@@ -12,8 +12,7 @@ npx quartz sync
 ```
 Use this code to push repo
 ```
-cd C:\Users\StanleyChan\SynologyDrive\Work Backup\my document\quartz
-git add .
-git commit -m "updated"
+cd "C:\Users\StanleyChan\SynologyDrive\Work Backup\my document\quartz"
+git commit -am "updated"
 git push
 

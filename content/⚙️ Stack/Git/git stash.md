@@ -6,9 +6,11 @@ git stash can save up the progress of your current working directory and return 
 ```
 git stash --include-untracked # stash both new files and changes
 git stash apply <number> # put the stash back to the clean directory (still in stash list)
+git stash drop <number> # remove a stash
+git stash pop # apply, but throws away the topmost stash (i.e. apply + drop)
 git stash push -m "<comment>" # git stash apply but also add comment in list
 git stash list # list of stash ever made in all commit
-git stash drop <number> # remove a stash
+
 git stash clear # remove all stash
 ```
 #### Use-case

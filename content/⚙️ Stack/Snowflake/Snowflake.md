@@ -50,18 +50,11 @@
 
 normalize database - 3nf
 
-command
-
-- list @<name of the stage>
-
-    see all the file within the stage
-
-
 account usage:
 
 - query_history:
 - query tagging
 
-[[Architecture]]
+[[Snowflake - Architecture]]
 
 [[Data masking]]

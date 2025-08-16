@@ -1,6 +1,7 @@
 ---
 title: 
 tags:
+  - Snowflake
 ---
 A dynamic table in Snowflake is a table that automatically refreshes its data based on changes in the underlying source tables or queries. It’s designed to maintain fresh data with minimal manual intervention.
 

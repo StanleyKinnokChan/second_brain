@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "716480ef3616dcc7",
+    "type": "split",
+    "children": [
+      {
+        "id": "702367daefce275d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc7dbf4a1e7917ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other computer concept/MFA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MFA"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b0ef94e78f6c0c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "2fb7d65f682bc912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6c83c756d2fa705",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "06d316bf525f1c0c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ff2db1b3f8f8c951",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 374.50418853759766
+  },
+  "right": {
+    "id": "2c6ee3a09f244df0",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdd2b184f39c7f55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c7d4b98465af0a2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "⚙️ Stack/Fivetran/Fivetran Ingestion mode.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Fivetran Ingestion mode"
+            }
+          },
+          {
+            "id": "83561ad037084d12",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "⚙️ Stack/Fivetran/Fivetran Ingestion mode.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Fivetran Ingestion mode"
+            }
+          },
+          {
+            "id": "4eaab448dc11e053",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ec28318070c099a2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "⚙️ Stack/Fivetran/Fivetran Ingestion mode.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Fivetran Ingestion mode"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fc7dbf4a1e7917ac",
+  "lastOpenFiles": [
+    "Data Engineering/Data loading pattern.md",
+    "Data masking.md",
+    "⚙️ Stack/Snowflake/Snowflake.md",
+    "Data Engineering/Isolation level.md",
+    "Data Engineering/Conformed Dimensions.md",
+    "Data Engineering/Columnar serialization.md",
+    "Data Engineering/ACID.md",
+    "Data Engineering/_Data_Engineering_index.md",
+    "Data Engineering/Centipede Fact Tables.png",
+    "Markdown Usage/_Markdown Usage_index.md",
+    "Data Engineering/Data Design Pattern/5 Data Value Design Patterns.md",
+    "Data Engineering/Data Design Pattern/3 Error Management Design Patterns.md",
+    "Personal/TIL achievement.md",
+    "Personal/TIL Leaving post.md",
+    "Personal/Lesson learned.md",
+    "Markdown Usage/Page Template.md",
+    "Other computer concept/exit code.md",
+    "Other computer concept/MFA.md",
+    "Resource/Choice of Chart.md",
+    "Other computer concept/Useful window command.md",
+    "AI/Untitled.md",
+    "Other computer concept/sorting algo complexity.png",
+    "Resource/Choice of Chart.png",
+    "Resource/My badges.md",
+    "Resource/Useful Website.md",
+    "AI/Agent Skill.md",
+    "AI/Temperature.md",
+    "Data Engineering/Aalystics workloads.md",
+    "⚙️ Stack/kafka/kafka connector.md",
+    "⚙️ Stack/kafka",
+    "⚙️ Stack/Airflow/Ariflow Architecture 1.png",
+    "⚙️ Stack/Airflow/Ariflow Architecture.png",
+    "⚙️ Stack/DBT/Advantage/centralized-vs-decentralized-3.png",
+    "⚙️ Stack/DBT/Advantage/centralized-vs-decentralized-4.png",
+    "⚙️ Stack/DBT/deployment/Untitled 2.png",
+    "⚙️ Stack/DBT/deployment/Untitled 1.png",
+    "⚙️ Stack/DBT/deployment/Untitled.png",
+    "Personal/japanese",
+    "⚙️ Stack/Fivetran"
+  ]
+}

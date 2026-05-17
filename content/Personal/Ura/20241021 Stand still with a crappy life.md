@@ -1,0 +1,7 @@
+Today is about addressing some deep-rooted issues, specifically my mindset toward starting what feels like a messy or difficult life.
+
+I know that I don’t measure up to many people, and even though I’m willing to spend my entire life improving, I may never fully catch up to them. But does that mean I should give up? Life is a one-time journey, and I should make the most of it. It’s not about competing with others or being fixated on reaching a specific goal. Even if I surpass others or achieve what I set out to do, I could still feel stuck. In the end, life is about _being-in-itself_—you need to focus on your own path.
+
+If you don’t even try, you’ll stagnate and get rotten, and things will only get worse because you age don't stop growing and it would only become more harder and frustrating to do it. No one can save you except yourself. Achieving goal is great but don't think about it is  But as you improve, you'll start to enjoy the process itself. Remember the first time I learned something new? I was a complete beginner, and others could easily outshine me. Still, I felt joy because I knew I was progressing. That sense of building my life, piece by piece, is what makes it all so valuable—because that feeling of growth is uniquely mine.
+
+Life can be tough, and many people choose to give up. But if I keep improving, I’m already ahead of many. I’m not saying that this improvement will make me extraordinary, but even a little progress, no matter how difficult the day, is still progress.

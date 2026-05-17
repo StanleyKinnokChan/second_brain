@@ -1,0 +1,3 @@
+I started to journey some important  life lessons from my past decade. I dropped it down so maybe if I met someone who are struggling, I can give this to him as well as also let him understand I have been there. It is also written for myself. I am certainly not having a good memory and easily get lost in life. The article can help me to recall what I have learned. 
+
+I remembered whenever I got some issues in life that I really stuck. I will just go online and search for advice. There are two reasons that I found it doesn't work. First, information is not wisdom. The advice is simply a piece of information that someone put it out. It can not be true. And even it is, you might probably cannot really abort it before internalizing it. you 

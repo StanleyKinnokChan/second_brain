@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Stanley Chan&#039;s Note🧠</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on Stanley Chan&#039;s Note🧠</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Create &amp; activate python venv</title>
+    <link>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Python/Create--and--activate-python-venv</link>
+    <guid>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Python/Create--and--activate-python-venv</guid>
+    <description>Window: python3 -m venv env env\Scripts\activate.bat Ubuntu python3 -m venv env source env\Scripts\activate .</description>
+    <pubDate>Wed, 27 Mar 2024 03:13:35 GMT</pubDate>
+  </item><item>
+    <title>Page Template</title>
+    <link>https://quartz.jzhao.xyz/Data-Engineering/Page-Template</link>
+    <guid>https://quartz.jzhao.xyz/Data-Engineering/Page-Template</guid>
+    <description></description>
+    <pubDate>Wed, 27 Mar 2024 02:59:39 GMT</pubDate>
+  </item><item>
+    <title>Python</title>
+    <link>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Python/Python</link>
+    <guid>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Python/Python</guid>
+    <description></description>
+    <pubDate>Wed, 27 Mar 2024 02:59:37 GMT</pubDate>
+  </item><item>
+    <title>Airflow</title>
+    <link>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Airflow/Airflow</link>
+    <guid>https://quartz.jzhao.xyz/%E2%9A%99%EF%B8%8F-Stack/Airflow/Airflow</guid>
+    <description>...</description>
+    <pubDate>Wed, 27 Mar 2024 02:59:37 GMT</pubDate>
+  </item><item>
+    <title>Page Template</title>
+    <link>https://quartz.jzhao.xyz/Soft-Skill/Page-Template</link>
+    <guid>https://quartz.jzhao.xyz/Soft-Skill/Page-Template</guid>
+    <description></description>
+    <pubDate>Wed, 27 Mar 2024 02:59:37 GMT</pubDate>
+  </item><item>
+    <title>DS P2</title>
+    <link>https://quartz.jzhao.xyz/Personal/DS-P2</link>
+    <guid>https://quartz.jzhao.xyz/Personal/DS-P2</guid>
+    <description>Placements: Client work1 EIF Client work2 Nothern Projects: SQL 100 python Preppin challenge AWS project x 4 Software learned: docker &amp; postgres Build a Github profile page: ...</description>
+    <pubDate>Wed, 27 Mar 2024 02:59:33 GMT</pubDate>
+  </item><item>
+    <title>Create delta tables</title>
+    <link>https://quartz.jzhao.xyz/Data-Engineering/Create-delta-tables</link>
+    <guid>https://quartz.jzhao.xyz/Data-Engineering/Create-delta-tables</guid>
+    <description>Creating a delta table (both able schema definition + data files in delta format) directly from a dataframe One of the easiest ways to create a delta table in Spark is to save a dataframe ...</description>
+    <pubDate>Tue, 26 Mar 2024 21:50:20 GMT</pubDate>
+  </item><item>
+    <title>Use delta tables with streaming data</title>
+    <link>https://quartz.jzhao.xyz/Data-Engineering/Use-delta-tables-with-streaming-data</link>
+    <guid>https://quartz.jzhao.xyz/Data-Engineering/Use-delta-tables-with-streaming-data</guid>
+    <description>Through what? Spark includes native support for streaming data through Spark Structured Streaming, an API that is based on a boundless dataframe in which streaming data is captured ...</description>
+    <pubDate>Tue, 26 Mar 2024 21:25:36 GMT</pubDate>
+  </item><item>
+    <title>Work with delta tables in Spark</title>
+    <link>https://quartz.jzhao.xyz/Data-Engineering/Work-with-delta-tables-in-Spark</link>
+    <guid>https://quartz.jzhao.xyz/Data-Engineering/Work-with-delta-tables-in-Spark</guid>
+    <description>Using Spark SQL The most common way to work with data in delta tables in Spark is to use Spark SQL spark.sql(&quot;INSERT INTO products VALUES (1, &#039;Widget&#039;, &#039;Accessories&#039;, ...</description>
+    <pubDate>Tue, 26 Mar 2024 21:19:38 GMT</pubDate>
+  </item><item>
+    <title>Delta Lake for Spark</title>
+    <link>https://quartz.jzhao.xyz/Data-Engineering/Delta-Lake-for-Spark</link>
+    <guid>https://quartz.jzhao.xyz/Data-Engineering/Delta-Lake-for-Spark</guid>
+    <description>Delta Lake is an open-source storage layer for Spark that enables relational database capabilities for batch and streaming data. Delta tables are schema abstractions over data files that are stored in Delta format.</description>
+    <pubDate>Tue, 26 Mar 2024 19:50:34 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
